@@ -1,0 +1,32 @@
+.navbar-admin{
+    background-color: #f64343;
+    display: flex;
+    align-items: center;   
+}
+
+.navbar-admin h1{
+    font-weight: 600;
+    font-size: 20px;
+    color:white;
+    width:15%;
+    min-width: 100px;
+    padding:10px;
+    text-align: center;
+    
+}
+
+.navbar-admin h2{
+    font-weight: 600;
+    font-size: 16px;
+    color:white;
+    margin-right: 4px;   
+}
+
+.navbar-admin .link{
+    list-style: none;
+    text-decoration: none;
+    padding:0;
+    margin: auto;
+}
+
+

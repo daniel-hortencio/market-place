@@ -28,11 +28,6 @@ module.exports = {
     async delete(req, res){
         const { id } = req.params
 
-        {/**const product = await connection('products')
-            .where('id', id)
-            .select('id')
-    .first()*/}
-
         await connection('products').where('id', id).delete()
 
         return res.status(204).send()

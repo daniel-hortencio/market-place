@@ -1,0 +1,14 @@
+.navbar-li{
+    display: flex;
+    align-items: center;    
+    padding-left:10px;
+    width:10%;
+    min-width: 70px;
+    justify-content: center;
+    margin:0 20px 0 10px;
+    transition: all 0.3s;
+    
+}
+.navbar-li:hover{
+    opacity: 0.5;
+}
